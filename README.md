@@ -19,7 +19,7 @@
 ## **📸 Скриншоты интерфейса**
 
 ### **Главное окно**
-![img.png](img.png)
+![image](https://github.com/user-attachments/assets/f61ec922-2266-4902-99d3-0659247926a5)
 
 ### **Меню (гамбургер)**
-![img_1.png](img_1.png)
+![image](https://github.com/user-attachments/assets/cdab0748-b395-4778-9b0e-a325c98267ea)
