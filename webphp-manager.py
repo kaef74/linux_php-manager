@@ -71,9 +71,6 @@ class PHPManager(QWidget):
 
         # Прогресс-бар и лейбл процентов (слева)
         progress_layout = QHBoxLayout()
-        self.progress_label = QLabel("0%")
-        self.progress_label.setFixedWidth(40)  # чтобы не «скакал» текст
-        progress_layout.addWidget(self.progress_label)
 
         self.progress_bar = QProgressBar()
         self.progress_bar.setMinimum(0)
@@ -106,7 +103,6 @@ class PHPManager(QWidget):
         if val > 100:
             val = 100
         self.progress_bar.setValue(val)
-        self.progress_label.setText(f"{val}%")
 
     def prompt_install_php_version(self):
         method, ok = QInputDialog.getItem(
